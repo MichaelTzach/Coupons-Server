@@ -5,6 +5,10 @@ The code was written by:
 - <b>Gal Steinberg</b>
 - <b>Elad Maymon</b>
 
+You may use the code for educational purposes.<br>
+This code is licenced under Apache 2.0 licence
+.
+
 # Coupons-Server
 
 This is the git repository for the Coupons production code.<br>
