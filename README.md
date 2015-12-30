@@ -1,12 +1,14 @@
 # Coupons-Server
 
-This is the git repository for the Coupons production code.
+This is the git repository for the Coupons production code.<br>
 The site is running at http://coupons.zz.mu/3
 
-# Admin User
-user: admin
-pass: admin
+#Special Users
 
-# Manager User
-user: manager
-pass: manager
+### Admin User
+    user: admin
+    pass: admin
+
+### Manager User
+    user: manager
+    pass: manager
