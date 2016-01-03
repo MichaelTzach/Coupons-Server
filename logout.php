@@ -1,3 +1,6 @@
+<?php
+	include_once ('logic/logout-controller.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,12 +9,6 @@
 </head>
 
 <body id="main_body" >
-
-<!--	CONTROLLER VARS	-->
-<?php
-	include_once ('model/session_manager.php');
-	logout();
-	die ('<script>window.location.assign("index.php")</script>');
-	?>
-	</body>
+	<script>window.location.assign("index.php")</script>
+</body>
 </html>

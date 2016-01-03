@@ -1,6 +1,10 @@
 <?php
-include_once ('sql_connection_handler.php');
-include_once ('./structs/coupon_info.php');
+if (file_exists('./sql_connection_handler.php')) include_once ('./sql_connection_handler.php');
+if (file_exists('../sql_connection_handler.php')) include_once ('../sql_connection_handler.php');
+if (file_exists('../model/sql_connection_handler.php')) include_once ('../model/sql_connection_handler.php');
+if (file_exists('./structs/coupon_info.php')) include_once ('./structs/coupon_info.php');
+if (file_exists('../structs/coupon_info.php')) include_once ('../structs/coupon_info.php');
+
 
 function session_login($username, $password) {
 	$connection = create_connection();

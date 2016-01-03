@@ -1,6 +1,9 @@
 <?php
-include_once ('./structs/client_info.php');
-include_once ('sql_connection_handler.php');
+if (file_exists('./structs/client_info.php')) include_once ('./structs/client_info.php');
+if (file_exists('../structs/client_info.php')) include_once ('../structs/client_info.php');
+if (file_exists('./model/sql_connection_handler.php')) include_once ('./model/sql_connection_handler.php');
+if (file_exists('../model/sql_connection_handler.php')) include_once ('../model/sql_connection_handler.php');
+
 
 function signup_client($firstname, $lastname, $email, $phonenumber, $date_of_birth, $username, $password, $interests, $gender) {
 	$connection = create_connection();
