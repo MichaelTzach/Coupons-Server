@@ -10,10 +10,9 @@ This code is licenced under Apache 2.0 licence.
 
 # Coupons-Server
 
-This is the git repository for the Coupons production code.<br>
-The site is running at http://coupons.zz.mu/3
+This is the git repository for the Coupons production code.
 
-#Special Users
+# Special Users
 
 ### Admin User
     user: admin
